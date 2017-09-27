@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 970px;
+    height: 600px;
+    border: 10px solid grey;
+    background-size: 970px 600px;
+    background: -moz-radial-gradient(center, ellipse cover, #828282 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #828282 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #828282 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#stageselect{
+    width: 300px;
+    height:140px;
+    background-color: grey;
+    margin: 200px auto;
+    padding: 20px;
+    border: 5px solid lightgray;
+    border-radius: .5em; 
+}
+button{
+    width: 97px;
+    height: 30px;
+}
+#stageselect h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: orange;
+    text-shadow: 2px 2px 1px yellow;
+}
+select{
+    width:148px;
+}
+#char1{
+    position: absolute;
+    bottom: 301px;
+    left: 76px;
+    width: 196px;
+}
+#char2{
+    position: absolute;
+    bottom: 301px;
+    right: 76px;
+    width: 196px;
+}
