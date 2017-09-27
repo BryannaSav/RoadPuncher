@@ -3,7 +3,7 @@ $(document).ready(function(){
     $("#char1, #char2").hide();
     $("button").hover(function(){
         var src = $(this).attr('data-src');
-        $('#wrapper').css('background-image', ("url("  + src + ")"));
+        $('body #wrapper').css('background-image', ("url("  + src + ")"));
     });
     $("button").click(function(){
         var src = $(this).attr('data-src');

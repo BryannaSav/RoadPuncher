@@ -1,16 +1,21 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #wrapper{
     margin: 0 auto;
     width: 970px;
     height: 600px;
     border: 10px solid grey;
-    background-size: 970px 600px;
     background: -moz-radial-gradient(center, ellipse cover, #828282 0%, #000000 100%); /* FF3.6-15 */
     background: -webkit-radial-gradient(center, ellipse cover, #828282 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
     background: radial-gradient(ellipse at center, #828282 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+body #wrapper{
+    background-size: 970px 600px;
 }
 #stageselect{
     width: 300px;
@@ -24,6 +29,8 @@
 button{
     width: 97px;
     height: 30px;
+    margin-top: 5px;
+    box-sizing: border-box;
 }
 #stageselect h1{
     margin-bottom: 10px;
@@ -33,7 +40,7 @@ button{
     text-shadow: 2px 2px 1px yellow;
 }
 select{
-    width:148px;
+    width:146px;
 }
 #char1{
     position: absolute;
